@@ -1,4 +1,5 @@
 {
+//  "eslint linebreak-style": ["error", "windows"],
   "parser": "babel-eslint",
   "env": {
     "es6": true,
@@ -6,6 +7,7 @@
     "node": true
   },
   "rules": {
+    "linebreak-style": 0,
     "semi": "off",
     "arrow-parens": "off",
     "comma-dangle": "off",
@@ -14,5 +16,6 @@
     "prefer-const": "off",
     "eol-last": "off"
   },
-  "extends": ["eslint:recommended", "google"]
+  "extends": ["eslint:recommended", "google"],
+
 }
